@@ -1,0 +1,13 @@
+{
+    "title":"云开发网站托管操作指南",
+    "description": "云开发网站托管操作指南，一本云开发用户的必备手册",
+    "language": "zh-hans",
+    "links": {
+        "sidebar": {
+            "腾讯云云开发": "https://cloud.tencent.com/product/tcb?from=12334",
+            "云开发控制台": "https://console.cloud.tencent.com/tcb?from=12304",
+            "云开发网站托管": "https://cloud.tencent.com/product/wh?from=12333"
+        }   
+
+    }
+}
