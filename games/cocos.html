@@ -1,0 +1,619 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Cocos 游戏如何部署到云开发网站托管 · 云开发网站托管操作指南</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="egret.html" />
+    
+    
+    <link rel="prev" href="../framework/nuxtjs.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://cloud.tencent.com/product/tcb?from=12334" target="_blank" class="custom-link">腾讯云云开发</a>
+        </li>
+    
+        
+        <li>
+            <a href="https://console.cloud.tencent.com/tcb?from=12304" target="_blank" class="custom-link">云开发控制台</a>
+        </li>
+    
+        
+        <li>
+            <a href="https://cloud.tencent.com/product/wh?from=12333" target="_blank" class="custom-link">云开发网站托管</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../">
+            
+                <a href="../">
+            
+                    
+                    本书介绍
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" data-path="../intro/about-hosting.html">
+            
+                <a href="../intro/about-hosting.html">
+            
+                    
+                    关于云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">操作指南</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../ops/domain.html">
+            
+                <a href="../ops/domain.html">
+            
+                    
+                    云开发网站托管如何绑定域名
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">网站托管与 Web 框架</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../framework/vue.html">
+            
+                <a href="../framework/vue.html">
+            
+                    
+                    Vue.js 项目如何部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../framework/react.html">
+            
+                <a href="../framework/react.html">
+            
+                    
+                    React 项目如何部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../framework/angular.html">
+            
+                <a href="../framework/angular.html">
+            
+                    
+                    Angular 项目如何部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="../framework/nextjs.html">
+            
+                <a href="../framework/nextjs.html">
+            
+                    
+                    Next.js 项目如何部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="../framework/nuxtjs.html">
+            
+                <a href="../framework/nuxtjs.html">
+            
+                    
+                    Nuxt.js 项目如何部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">网站托管与 H5 游戏</li>
+        
+        
+    
+        <li class="chapter active" data-level="4.1" data-path="cocos.html">
+            
+                <a href="cocos.html">
+            
+                    
+                    Cocos 游戏如何部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="egret.html">
+            
+                <a href="egret.html">
+            
+                    
+                    白鹭引擎游戏如何部署云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="laraboxair.html">
+            
+                <a href="laraboxair.html">
+            
+                    
+                    LayaBox Air 游戏如何部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">网站托管与 CMS</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="../cms/discuz.html">
+            
+                <a href="../cms/discuz.html">
+            
+                    
+                    Discuz 静态化部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../cms/wordpress.html">
+            
+                <a href="../cms/wordpress.html">
+            
+                    
+                    WordPress 静态化部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="5.3" data-path="../cms/dedecms.html">
+            
+                <a href="../cms/dedecms.html">
+            
+                    
+                    织梦 CMS 静态化部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">网站托管与自动化</li>
+        
+        
+    
+        <li class="chapter " data-level="6.1" data-path="../automate/github-action.html">
+            
+                <a href="../automate/github-action.html">
+            
+                    
+                    如何借助 Github Action 将项目部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="6.2" data-path="../automate/gitlab-ci.html">
+            
+                <a href="../automate/gitlab-ci.html">
+            
+                    
+                    如何借助 Gitlab CI 将项目部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">网站托管与个人站点</li>
+        
+        
+    
+        <li class="chapter " data-level="7.1" data-path="../blog/hexo.html">
+            
+                <a href="../blog/hexo.html">
+            
+                    
+                    如何将 Hexo 博客部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.2" data-path="../blog/hugo.html">
+            
+                <a href="../blog/hugo.html">
+            
+                    
+                    如何将 Hugo 博客部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.3" data-path="../blog/jekyll.html">
+            
+                <a href="../blog/jekyll.html">
+            
+                    
+                    如何将 Jekyll 博客部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="7.4" data-path="../blog/octopress.html">
+            
+                <a href="../blog/octopress.html">
+            
+                    
+                    如何将 Octopress 博客部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">网站托管与项目文档</li>
+        
+        
+    
+        <li class="chapter " data-level="8.1" data-path="../documents/vuepress.html">
+            
+                <a href="../documents/vuepress.html">
+            
+                    
+                    如何将 VuePress 文档部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.2" data-path="../documents/docsify.html">
+            
+                <a href="../documents/docsify.html">
+            
+                    
+                    如何将 Docsify 文档部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="8.3" data-path="../documents/gitbook.html">
+            
+                <a href="../documents/gitbook.html">
+            
+                    
+                    如何将 Gitbook 电子书部署到云开发网站托管
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href=".." >Cocos 游戏如何部署到云开发网站托管</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="cocos-&#x6E38;&#x620F;&#x5982;&#x4F55;&#x90E8;&#x7F72;&#x5230;&#x4E91;&#x5F00;&#x53D1;&#x7F51;&#x7AD9;&#x6258;&#x7BA1;">Cocos &#x6E38;&#x620F;&#x5982;&#x4F55;&#x90E8;&#x7F72;&#x5230;&#x4E91;&#x5F00;&#x53D1;&#x7F51;&#x7AD9;&#x6258;&#x7BA1;</h1>
+<p>&#x968F;&#x7740;&#x5404;&#x4E2A;&#x5927;&#x578B;App&#x90FD;&#x63A8;&#x51FA;&#x4E86;&#x81EA;&#x5DF1;&#x7684;&#x5C0F;&#x6E38;&#x620F;&#x5E73;&#x53F0;&#xFF0C;&#x6E38;&#x620F;&#x4E5F;&#x8D8A;&#x6765;&#x8D8A;&#x53D7;&#x5230;&#x5F00;&#x53D1;&#x8005;&#x7684;&#x5173;&#x6CE8;&#x3002;
+Cocos Creator&#x662F;&#x4E00;&#x4E2A;&#x5B8C;&#x6574;&#x7684;&#x6E38;&#x620F;&#x5F00;&#x53D1;&#x89E3;&#x51B3;&#x65B9;&#x6848;&#xFF0C;&#x5305;&#x542B;&#x4E86;&#x8F7B;&#x91CF;&#x9AD8;&#x6548;&#x7684;&#x8DE8;&#x5E73;&#x53F0;&#x6E38;&#x620F;&#x5F15;&#x64CE;&#xFF0C;&#x4EE5;&#x53CA;&#x80FD;&#x8BA9;&#x4F60;&#x66F4;&#x5FEB;&#x901F;&#x5F00;&#x53D1;&#x6E38;&#x620F;&#x6240;&#x9700;&#x8981;&#x7684;&#x5404;&#x79CD;&#x56FE;&#x5F62;&#x754C;&#x9762;&#x5DE5;&#x5177;&#x3002;&#x8FD9;&#x7BC7;&#x6587;&#x7AE0;&#x5C06;&#x4ECB;&#x7ECD;&#x4E0B;&#xFF0C;&#x5982;&#x4F55;&#x5C06;Cocos Creator&#x7684;&#x6E38;&#x620F;&#x4EE3;&#x7801;&#x901A;&#x8FC7;&#x4E91;&#x5F00;&#x53D1;&#x7F51;&#x7AD9;&#x9759;&#x6001;&#x6258;&#x7BA1;&#x7684;&#x65B9;&#x5F0F;&#xFF0C;&#x5FEB;&#x901F;&#x7684;&#x90E8;&#x7F72;&#x5230;&#x7EBF;&#x4E0A;&#x3002;</p>
+<blockquote>
+<p>&#x672C;&#x6587;&#x7684;&#x91CD;&#x70B9;&#x5E76;&#x4E0D;&#x662F;&#x4ECB;&#x7ECD;&#x5982;&#x4F55;&#x7528;Cocos Creator&#x5F00;&#x53D1;&#x4E00;&#x6B3E;&#x5C0F;&#x6E38;&#x620F;&#xFF0C;&#x6240;&#x4EE5;&#x5982;&#x679C;&#x6CA1;&#x6709;Cocos Creator&#x7684;&#x4F7F;&#x7528;&#x6216;&#x8005;&#x5F00;&#x53D1;&#x7ECF;&#x9A8C;&#x7684;&#x8BDD;&#xFF0C;&#x5EFA;&#x8BAE;&#x5148;&#x67E5;&#x9605;Cocos Creator&#x7684;&#x5F00;&#x53D1;&#x624B;&#x518C;&#x3002;</p>
+</blockquote>
+<h3 id="cocos-creator&#x751F;&#x6210;&#x6E38;&#x620F;&#x7684;&#x9759;&#x6001;&#x8BBF;&#x95EE;&#x6587;&#x4EF6;">Cocos Creator&#x751F;&#x6210;&#x6E38;&#x620F;&#x7684;&#x9759;&#x6001;&#x8BBF;&#x95EE;&#x6587;&#x4EF6;</h3>
+<p>&#x5047;&#x5B9A;&#x6211;&#x4EEC;&#x73B0;&#x5728;&#x5DF2;&#x7ECF;&#x5F00;&#x53D1;&#x597D;&#x4E00;&#x6B3E;Cocos Creator&#x6E38;&#x620F;&#xFF0C;&#x70B9;&#x51FB;<code>Cocos Creator -&gt; &#x9879;&#x76EE; -&gt; &#x6784;&#x5EFA;&#x53D1;&#x5E03;</code>&#xFF0C;&#x4F60;&#x4F1A;&#x770B;&#x5230;&#x4E0B;&#x9762;&#x7684;&#x754C;&#x9762;&#xFF1A;</p>
+<p><img src="https://postimg.aliavv.com/picgo/20200427095306.png" alt=""></p>
+<p>&#x70B9;&#x51FB;&#x6784;&#x5EFA;&#xFF0C;&#x5C31;&#x4F1A;&#x5C06;&#x6211;&#x4EEC;&#x5F00;&#x53D1;&#x597D;&#x7684;&#x6E38;&#x620F;&#x7F16;&#x8BD1;&#x6210;&#x53EF;&#x4F9B;&#x8BBF;&#x95EE;&#x7684;web&#x6E38;&#x620F;&#x9879;&#x76EE;&#x7ED3;&#x6784;:</p>
+<p><img src="https://postimg.aliavv.com/picgo/20200427095320.png" alt=""></p>
+<blockquote>
+<p>&#x8FD9;&#x91CC;&#x7531;&#x4E8E;&#x6211;&#x4EEC;&#x662F;&#x9700;&#x8981;&#x518D;web&#x7AEF;&#x8BBF;&#x95EE;&#x6211;&#x4EEC;&#x7684;&#x5C0F;&#x6E38;&#x620F;&#xFF0C;&#x6240;&#x4EE5;&#x5728;<code>&#x53D1;&#x5E03;&#x5E73;&#x53F0;</code>&#x7684;&#x9009;&#x9879;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x9009;&#x62E9;<code>Web Mobile</code>&#x3002;</p>
+</blockquote>
+<h3 id="&#x9759;&#x6001;&#x6258;&#x7BA1;&#x90E8;&#x7F72;">&#x9759;&#x6001;&#x6258;&#x7BA1;&#x90E8;&#x7F72;</h3>
+<p>&#x6211;&#x4EEC;&#x8FDB;&#x5165;&#x817E;&#x8BAF;&#x4E91;&#x7684;&#x4E91;&#x5F00;&#x53D1;(cloudbase)&#x63A7;&#x5236;&#x53F0;&#xFF0C;&#x9009;&#x62E9;&#x5F00;&#x901A;&#x4E00;&#x4E2A;&#x4E91;&#x73AF;&#x5883;:</p>
+<p><img src="https://postimg.aliavv.com/picgo/20200427095331.png" alt=""></p>
+<p>&#x8FD9;&#x91CC;&#x8981;&#x6CE8;&#x610F;&#x9009;&#x62E9;&#x662F;&#x6309;&#x91CF;&#x8BA1;&#x8D39;&#x7684;&#x6A21;&#x5F0F;(&#x53EA;&#x6709;&#x6309;&#x91CF;&#x8BA1;&#x8D39;&#x624D;&#x80FD;&#x5F00;&#x901A;&#x9759;&#x6001;&#x7F51;&#x7AD9;&#x6258;&#x7BA1;)&#x3002;&#x521B;&#x5EFA;&#x5B8C;&#x6210;&#x540E;&#xFF0C;&#x70B9;&#x51FB;&#x8FDB;&#x5165;&#x6211;&#x4EEC;&#x521A;&#x521A;&#x521B;&#x5EFA;&#x7684;&#x4E91;&#x73AF;&#x5883;&#xFF0C;&#x8FDB;&#x5165;&#x4E91;&#x73AF;&#x5883;&#x7BA1;&#x7406;&#x754C;&#x9762;&#xFF1A;</p>
+<p><img src="https://postimg.aliavv.com/picgo/20200427095337.png" alt=""></p>
+<p>&#x5728;&#x4E91;&#x73AF;&#x5883;&#x7BA1;&#x7406;&#x754C;&#x9762;&#xFF0C;&#x5728;&#x53F3;&#x4FA7;&#x7684;&#x7F51;&#x7AD9;&#x6258;&#x7BA1;&#x4E2D;&#xFF0C;&#x6211;&#x4EEC;&#x53EF;&#x4EE5;&#x5C06;&#x521A;&#x521A;&#x9879;&#x76EE;&#x4E2D;&#x751F;&#x6210;&#x597D;&#x7684;&#x9759;&#x6001;&#x9875;&#x9762;&#x7ED9;&#x4E0A;&#x4F20;&#x4E0A;&#x53BB;&#x3002;&#x5F53;&#x7136;&#xFF0C;&#x624B;&#x52A8;&#x4E0A;&#x4F20;&#x663E;&#x7684;&#x4E0D;&#x592A;&#x53CB;&#x597D;&#xFF0C;&#x6211;&#x4EEC;&#x4E5F;&#x53EF;&#x4EE5;&#x501F;&#x52A9; <a href="https://docs.cloudbase.net/cli/intro.html" target="_blank">cloudbase cli</a> &#x4EE5;&#x547D;&#x4EE4;&#x884C;&#x7684;&#x65B9;&#x5F0F;&#x6267;&#x884C;&#x4E0A;&#x4F20;&#x3002;</p>
+<p>&#x9996;&#x5148;&#xFF0C;&#x5B89;&#x88C5;cloudbase cli:</p>
+<pre><code>npm install -g @cloudbase/cli
+</code></pre><p>&#x6267;&#x884C;&#x767B;&#x5F55;&#x547D;&#x4EE4;&#xFF1A;</p>
+<pre><code>tcb login
+</code></pre><p><img src="https://postimg.aliavv.com/picgo/20200427095348.png" alt=""></p>
+<p>&#x5728;&#x5F39;&#x51FA;&#x7684;&#x9875;&#x9762;&#x786E;&#x8BA4;&#x6388;&#x6743;:</p>
+<p><img src="https://postimg.aliavv.com/picgo/20200427095357.png" alt=""></p>
+<p>&#x63A5;&#x7740;&#xFF0C;&#x5728;&#x9879;&#x76EE;&#x4E2D;&#x5C06;&#x7F16;&#x8BD1;&#x597D;&#x7684;<code>build/web-mobile</code>&#x76EE;&#x5F55;&#x4E2D;&#x7684;&#x6587;&#x4EF6;&#x7ED9;&#x90E8;&#x7F72;&#x4E0A;&#x53BB;&#xFF1A;</p>
+<pre><code>cloudbase hosting:deploy ./build/web-mobile  -e EndId
+</code></pre><p>&#x8FD9;&#x91CC;&#x7684; EnvID &#x66FF;&#x6362;&#x4E3A;&#x521A;&#x521B;&#x5EFA;&#x597D;&#x7684;&#x73AF;&#x5883;ID&#x3002;</p>
+<p><img src="https://postimg.aliavv.com/picgo/20200427095402.png" alt=""></p>
+<p>&#x817E;&#x8BAF;&#x4E91;&#x4E91;&#x5F00;&#x53D1;&#x7684;&#x9759;&#x6001;&#x7F51;&#x7AD9;&#x6258;&#x7BA1;&#x6709;&#x9ED8;&#x8BA4;&#x57DF;&#x540D;&#x53EF;&#x4F9B;&#x8BBF;&#x95EE;&#xFF1A;</p>
+<p><img src="https://postimg.aliavv.com/picgo/20200427095408.png" alt=""></p>
+<p>&#x901A;&#x8FC7;&#x9ED8;&#x8BA4;&#x57DF;&#x540D;&#xFF0C;&#x6211;&#x4EEC;&#x5C31;&#x80FD;&#x8BBF;&#x95EE;&#x5566;&#x3002;</p>
+<p><img src="https://postimg.aliavv.com/picgo/20200427095413.png" alt=""></p>
+<p>&#x6211;&#x4EEC;&#x5C31;&#x80FD;&#x8BBF;&#x95EE;&#x5566;&#x3002;&#x4E0D;&#x8FC7;&#x8FD9;&#x91CC;&#x9700;&#x8981;&#x6CE8;&#x610F;&#x7684;&#x662F;&#xFF0C;&#x4E91;&#x5F00;&#x53D1;&#x9759;&#x6001;&#x6258;&#x7BA1;&#x7684;&#x9ED8;&#x8BA4;&#x8BBF;&#x95EE;&#x57DF;&#x540D;&#x9650;&#x5236;&#x4E86;&#x8BBF;&#x95EE;&#x7684;&#x4E0B;&#x884C;&#x901F;&#x5EA6;&#xFF0C;&#x5BF9;&#x4E8E;&#x6E38;&#x620F;&#x8FD9;&#x79CD;&#x9759;&#x6001;&#x8D44;&#x6E90;&#x91CF;&#x8F83;&#x5927;&#x7684;&#x9879;&#x76EE;&#xFF0C;&#x5EFA;&#x8BAE;&#x8FD8;&#x662F;&#x81EA;&#x5DF1;&#x8D2D;&#x4E70;&#x4E2A;&#x57DF;&#x540D;&#x7ED1;&#x5B9A;&#x8FDB;&#x884C;&#x8BBF;&#x95EE;&#x3002;</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="../framework/nuxtjs.html" class="navigation navigation-prev " aria-label="Previous page: Nuxt.js 项目如何部署到云开发网站托管">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="egret.html" class="navigation navigation-next " aria-label="Next page: 白鹭引擎游戏如何部署云开发网站托管">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Cocos 游戏如何部署到云开发网站托管","level":"4.1","depth":1,"next":{"title":"白鹭引擎游戏如何部署云开发网站托管","level":"4.2","depth":1,"path":"games/egret.md","ref":"games/egret.md","articles":[]},"previous":{"title":"Nuxt.js 项目如何部署到云开发网站托管","level":"3.5","depth":1,"path":"framework/nuxtjs.md","ref":"framework/nuxtjs.md","articles":[]},"dir":"ltr"},"config":{"plugins":[],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"theme":"default","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"云开发网站托管操作指南","language":"zh-hans","links":{"sidebar":{"腾讯云云开发":"https://cloud.tencent.com/product/tcb?from=12334","云开发控制台":"https://console.cloud.tencent.com/tcb?from=12304","云开发网站托管":"https://cloud.tencent.com/product/wh?from=12333"}},"gitbook":"*","description":"云开发网站托管操作指南，一本云开发用户的必备手册"},"file":{"path":"games/cocos.md","mtime":"2020-04-27T06:39:02.850Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-04-27T06:39:43.865Z"},"basePath":"..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../gitbook/gitbook.js"></script>
+    <script src="../gitbook/theme.js"></script>
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
